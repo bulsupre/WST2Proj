@@ -63,9 +63,9 @@
     <div class="mt-5 ms-5 d-flex flex-row">
 
     <div class="options d-inline-block">
-        <a href="">Wands</a><br>
+        <a href="wands.php">Wands</a><br>
         <hr>
-        <a href="">Robes</a><br>
+        <a href="robes.php">Robes</a><br>
         <hr>
         <a href="">Shirts&#47;Hoodies</a><br>
         <hr>
