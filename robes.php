@@ -71,9 +71,9 @@ Wear the iconic colours and emblems of Gryffindor, Slytherin, Ravenclaw or Huffl
         <hr>
         <a href="books.php">Books</a><br>
         <hr>
-        <a href="">Toys</a><br>
+        <a href="toys.php">Toys</a><br>
         <hr>
-        <a href="">Pins</a><br>
+        <a href="pins.php">Pins</a><br>
     </div>
 
     <div class="prod">

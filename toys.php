@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="books.css">
+    <link rel="stylesheet" href="toys.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -54,8 +54,8 @@
 
     <div class="mt-5">
         <div class="wands d-flex flex-column text-center align-items-center">
-        <h1>Books</h1>
-        <p>Celebrate the wizarding world by gifting someone the Harry Potter book collection. Choose from hardbacks, paperbacks, boxed sets and more in this bespoke range &ndash; and rediscover the magic again and again&#x21;</p>
+        <h1>Soft Toys</h1>
+        <p>Explore our selection of must-have Harry Potter soft toys and create your own magical menagerie with enchanting creatures, including the adorable Pygmy Puff, the mischievous Niffler, Harry Potter&#39;s loyal owl Hedwig, house-elf Dobby and more!</p>
         </div>
     </div>
 
@@ -81,87 +81,36 @@
             <div class="grid-set active" id="grid-set-1">
 
                 <div class="grid-item">
-                    <img src="Images/New Edition Harry Potter and the Philosopher's Stone.png" alt="">
-                    <p>Harry Potter and the Philosopher's Stone</p>
+                    <img src="Images/Buckbeak Soft Toy.png" alt="">
+                    <p>Buckbeak Soft Toy</p>
                 </div>
                 
                 <div class="grid-item">
-                    <img src="Images/New Edition Harry Potter and the Chamber of Secrets.png" alt="">
-                    <p> Harry Potter and the Chamber of Secrets</p>
+                    <img src="Images/Dobby Soft Toy.png" alt="">
+                    <p>Dobby Soft Toy</p>
                 </div>
 
                 <div class="grid-item">
-                    <img src="Images/New Edition Harry Potter and the Prisoner of Azkaban.png" alt="">
-                    <p>Harry Potter and the Prisoner of Azkaban</p>
+                    <img src="Images/Fang Boarhound Soft Toy.png" alt="">
+                    <p>Fang Boarhound Soft Toy</p>
                 </div>
 
                 <div class="grid-item">
-                    <img src="Images/New Edition Harry Potter and the Goblet of Fire.png" alt="">
-                    <p>Harry Potter and the Goblet of Fire</p>
+                    <img src="Images/Hedwig Soft Toy.png" alt="">
+                    <p>Hedwig Soft Toy</p>
                 </div>
 
                 <div class="grid-item">
-                    <img src="Images/New Edition Harry Potter and the Order of the Phoenix.png" alt="">
-                    <p> Harry Potter and the Order of the Phoenix</p>
+                    <img src="Images/Mandrake Screaming Soft Toy.png" alt="">
+                    <p>Mandrake Screaming Soft Toy</p>
                 </div>
 
                 <div class="grid-item">
-                    <img src="Images/New Edition Harry Potter and the Half-Blood Prince.png" alt="">
-                    <p>Harry Potter and the Half-Blood Prince</p>
+                    <img src="Images/Hungarian Horntail Dragon Plush.png" alt="">
+                    <p>Hungarian Horntail Dragon Plush</p>
                 </div>
             </div>
-
-            <div class="grid-set" id="grid-set-2">
-
-                <div class="grid-item">
-                    <img src="Images/New Edition Harry Potter and the Deathly Hallows.png" alt="">
-                    <p>Harry Potter and the Deathly Hallows</p>
-                </div>
-                
-                <div class="grid-item">
-                    <img src="Images/The Harry Potter Wizarding Almanac.png" alt="">
-                    <p>The Harry Potter Wizarding Almanac</p>
-                </div>
-
-                <div class="grid-item">
-                    <img src="Images/Warner Bros. Studio Tour London Souvenir Guidebook.png" alt="">
-                    <p>The Magic of MinaLima Hardcover</p>
-                </div>
-
-            </div>
-
-        <!-- Pagination -->
-        <div class="pagination">
-            <button onclick="changeSlide(-1)">&#60;</button>
-            <button class="page-btn active" onclick="showSlide(1)">1</button>
-            <button class="page-btn" onclick="showSlide(2)">2</button>
-            <button onclick="changeSlide(1)">&#62;</button>
         </div>
-
-
     </div>
-    
-    <script>
-        let currentSlide = 1;
-        const totalSlides = 2;
-
-        function showSlide(slideIndex) {
-        const sets = document.querySelectorAll('.grid-set');
-        const pageButtons = document.querySelectorAll('.page-btn');
-        sets.forEach(set => set.classList.remove('active'));
-        pageButtons.forEach(btn => btn.classList.remove('active'));
-
-        if (slideIndex < 1) slideIndex = 1;
-        if (slideIndex > totalSlides) slideIndex = totalSlides;
-
-        sets[slideIndex - 1].classList.add('active');
-        pageButtons[slideIndex - 1].classList.add('active');
-        currentSlide = slideIndex;
-        }
-
-        function changeSlide(direction) {
-        showSlide(currentSlide + direction);
-        }
-  </script>
 </body>
 </html>
