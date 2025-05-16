@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="wands.css">
+    <link rel="stylesheet" href="books.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -54,9 +54,8 @@
 
     <div class="mt-5">
         <div class="wands d-flex flex-column text-center align-items-center">
-        <h1>Wands</h1>
-        <p>Explore the exclusive selection of Harry Potter wands at The Wand Shop, featuring bespoke designs, unique replicas and hand-crafted celebratory pieces. 
-    Discover treasures inspired by your favourite characters, locations and landmarks — the perfect addition to your collection.</p>
+        <h1>Books</h1>
+        <p>Celebrate the wizarding world by gifting someone the Harry Potter book collection. Choose from hardbacks, paperbacks, boxed sets and more in this bespoke range &ndash; and rediscover the magic again and again&#x21;</p>
         </div>
     </div>
 
@@ -82,100 +81,53 @@
             <div class="grid-set active" id="grid-set-1">
 
                 <div class="grid-item">
-                    <img src="Images/Harry potters wand.png" alt="">
-                    <p>Harry Wand</p>
+                    <img src="Images/New Edition Harry Potter and the Philosopher's Stone.png" alt="">
+                    <p>Harry Potter and the Philosopher's Stone</p>
                 </div>
                 
                 <div class="grid-item">
-                    <img src="Images/GryffindorMascot_TraitsWand.png" alt="">
-                    <p>Gryffindor Mascot Traits Wand</p>
+                    <img src="Images/New Edition Harry Potter and the Chamber of Secrets.png" alt="">
+                    <p> Harry Potter and the Chamber of Secrets</p>
                 </div>
 
                 <div class="grid-item">
-                    <img src="Images/HufflepuffMascot_TraitsWand.png" alt="">
-                    <p>Hufflepuff Mascot Traits Wand</p>
+                    <img src="Images/New Edition Harry Potter and the Prisoner of Azkaban.png" alt="">
+                    <p>Harry Potter and the Prisoner of Azkaban</p>
                 </div>
 
                 <div class="grid-item">
-                    <img src="Images/Philosophers Stone Wand.png" alt="">
-                    <p>Philosophers Stone Wand</p>
+                    <img src="Images/New Edition Harry Potter and the Goblet of Fire.png" alt="">
+                    <p>Harry Potter and the Goblet of Fire</p>
                 </div>
 
                 <div class="grid-item">
-                    <img src="Images/RavenclawMascot_TraitsWand.png" alt="">
-                    <p>Ravenclaw Mascot Traits Wand</p>
+                    <img src="Images/New Edition Harry Potter and the Order of the Phoenix.png" alt="">
+                    <p> Harry Potter and the Order of the Phoenix</p>
                 </div>
 
                 <div class="grid-item">
-                    <img src="Images/SlytherinMascot_TraitsWand.png" alt="">
-                    <p>Slytherin Mascot Traits Wand</p>
+                    <img src="Images/New Edition Harry Potter and the Half-Blood Prince.png" alt="">
+                    <p>Harry Potter and the Half-Blood Prince</p>
                 </div>
             </div>
 
             <div class="grid-set" id="grid-set-2">
 
                 <div class="grid-item">
-                    <img src="Images/Timeturner_Wand_Box.png" alt="">
-                    <p>Time turner Wand Box</p>
+                    <img src="Images/New Edition Harry Potter and the Deathly Hallows.png" alt="">
+                    <p>Harry Potter and the Deathly Hallows</p>
                 </div>
                 
                 <div class="grid-item">
-                    <img src="Images/Wand-SwordofGriffindor.png" alt="">
-                    <p>Sword of Griffindor</p>
+                    <img src="Images/The Harry Potter Wizarding Almanac.png" alt="">
+                    <p>The Harry Potter Wizarding Almanac</p>
                 </div>
 
                 <div class="grid-item">
-                    <img src="Images/Wand-TheBowtruckle.png" alt="">
-                    <p>The Bowtruckle</p>
+                    <img src="Images/Warner Bros. Studio Tour London Souvenir Guidebook.png" alt="">
+                    <p>The Magic of MinaLima Hardcover</p>
                 </div>
 
-                <div class="grid-item">
-                    <img src="Images/Wand-TheCupofHufflepuff.png" alt="">
-                    <p>The Cup of Huffle puff</p>
-                </div>
-
-                <div class="grid-item">
-                    <img src="Images/Wand-TheDarkArts.png" alt="">
-                    <p> The Dark Arts</p>
-                </div>
-
-                <div class="grid-item">
-                    <img src="Images/Wand-TheDiademofRavenclaw.png" alt="">
-                    <p>The Diadem of Ravenclaw</p>
-                </div>
-            </div>
-
-            <div class="grid-set" id="grid-set-3">
-
-                <div class="grid-item">
-                    <img src="Images/Wand-TheGoldenSnitch.png" alt="">
-                    <p> The Golden Snitch</p>
-                </div>
-                
-                <div class="grid-item">
-                    <img src="Images/Wand-TheGriffindorMascot.png" alt="">
-                    <p>The Griffindor Mascot</p>
-                </div>
-
-                <div class="grid-item">
-                    <img src="Images/Wand-TheLocketofSlytherin.png" alt="">
-                    <p>The Locket of Slytherin</p>
-                </div>
-
-                <div class="grid-item">
-                    <img src="Images/Wand-ThePhoenix.png" alt="">
-                    <p>The Phoenix</p>
-                </div>
-
-                <div class="grid-item">
-                    <img src="Images/Wand-TheRavenclawMascot.png" alt="">
-                    <p> The Ravenclaw Mascot</p>
-                </div>
-
-                <div class="grid-item">
-                    <img src="Images/Wand-TheThestral.png" alt="">
-                    <p>The Thestral</p>
-                </div>
             </div>
 
         <!-- Pagination -->
@@ -183,7 +135,6 @@
             <button onclick="changeSlide(-1)">&#60;</button>
             <button class="page-btn active" onclick="showSlide(1)">1</button>
             <button class="page-btn" onclick="showSlide(2)">2</button>
-            <button class="page-btn" onclick="showSlide(3)">3</button>
             <button onclick="changeSlide(1)">&#62;</button>
         </div>
 
@@ -192,7 +143,7 @@
     
     <script>
         let currentSlide = 1;
-        const totalSlides = 3;
+        const totalSlides = 2;
 
         function showSlide(slideIndex) {
         const sets = document.querySelectorAll('.grid-set');

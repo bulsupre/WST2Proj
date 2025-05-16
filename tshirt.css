@@ -114,7 +114,7 @@ body {
   justify-content: center;  /* centers the slidebar */
   align-items: center;
   gap: 10px; /* space between buttons */
-  margin-top: 40px; /* space above the slidebar */
+  margin-top: 70px; /* space above the slidebar */
   margin-bottom: 20px;
 }
 

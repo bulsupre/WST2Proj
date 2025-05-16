@@ -60,7 +60,7 @@ featuring captivating designs inspired by iconic scenes, spells, houses and char
         </div>
     </div>
 
-    <div class="mt-5 ms-5 d-flex flex-row">
+    <div class="mt-2 ms-5 d-flex flex-row">
 
     <div class="options d-inline-block">
         <a href="wands.php">Wands</a><br>
@@ -69,7 +69,7 @@ featuring captivating designs inspired by iconic scenes, spells, houses and char
         <hr>
         <a href="tshirt.php">Shirts&#47;Hoodies</a><br>
         <hr>
-        <a href="">Books</a><br>
+        <a href="books.php">Books</a><br>
         <hr>
         <a href="">Toys</a><br>
         <hr>
